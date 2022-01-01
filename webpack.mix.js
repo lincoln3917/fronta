@@ -11,10 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix.js('resources/js/app.js', 'public/js')
-//     .postCss('resources/css/app.css', 'public/css', [
-//         //
-//     ]);
+mix.js('resources/assets/general/js/app.js', 'public/assets/general/js')
+    .sass('resources/assets/general/css/app.scss', 'public/assets/general/css', [
+
+    ]);
 
 
 mix.js("resources/assets/tailwindcss/js/app.js", "public/assets/tailwindcss/js")
