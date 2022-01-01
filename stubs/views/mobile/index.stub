@@ -1,4 +1,4 @@
-@extends('$LOWER_NAME$::layouts.master')
+@extends('$LOWER_NAME$::mobile.layouts.master')
 
 @section('content')
     <h1>Hello World</h1>
